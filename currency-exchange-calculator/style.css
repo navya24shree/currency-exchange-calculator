@@ -1,0 +1,139 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/money-currency-exchange-money-transfer-stock-exchange-currencies-dollar-euro-pound-yen_228260-472.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    font-family: Arial, sans-serif;
+    padding: 10px; /* for spacing on small devices */
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 400px;
+    width: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+form {
+    margin-top: 20px;
+}
+form select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 6px;        /* smaller height */
+    font-size: 0.7rem;   /* slightly smaller text */
+    width: 80%;          /* reduced width */
+    max-width: 200px;    /* won’t stretch too much */
+    margin: 5px auto;    /* center it neatly */
+    display: block;
+}
+
+
+
+
+
+form select,
+form input,
+form button {
+    width: 100%;
+    margin-top: 10px;
+    padding: 8px;
+    font-size: 1rem;
+}
+
+form select {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form input {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+
+.dropdown i {
+    margin: 15px;
+    font-size: 20px;
+}
+
+img {
+    max-width: 45px;
+}
+
+.select-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.msg {
+    margin: 10px 0;
+    font-size: 0.9rem;
+    text-align: center;
+}
+
+form button {
+    height: 40px;
+    background-color: cadetblue;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #3a7d7d;
+}
+
+
+@media (max-width: 600px) {
+    .select-container {
+        flex-direction: column;   /* stack vertically */
+        align-items: stretch;
+        gap: 5px;
+    }
+
+    .select-container img {
+        width: 45px;              /* keep proportion smaller */
+        margin: 0 auto;           /* center flag above select */
+    }
+
+    .select-container select {
+        width: 100%;              /* full width on mobile */
+    }
+
+    .dropdown {
+        margin: 10px auto;
+    }
+
+    .dropdown i {
+        font-size: 28px;          /* make swap icon bigger on mobile */
+    }
+}
