@@ -30,11 +30,11 @@ cd currency-exchange-calculator
 
  🖥️ Desktop View
  
-![Desktop Screenshot](./assets/desktopss.png)
+![Desktop Screenshot](currency-exchange-calculator/assets/desktopss.png)
 
  📱 Mobile View
  
-![Mobile Screenshot](./assets/mobiless.png)
+![Mobile Screenshot](currency-exchange-calculator/assets/mobiless.png)
 
 
 🔑 API Used
