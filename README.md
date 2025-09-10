@@ -42,6 +42,7 @@ ExchangeRate API
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currencyCode}.min.json
 
 📚 What I Learned
+
 How to use the Fetch API to get data from external APIs
 
 Handling JSON responses in JavaScript
@@ -49,5 +50,9 @@ Handling JSON responses in JavaScript
 DOM manipulation for updating conversion results dynamically
 
 Building a clean and responsive UI
+
+Live Demo:
+Check out the live project here:
+https://currency-exchange-calculator-zojk.vercel.app/
 
 
