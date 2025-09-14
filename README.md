@@ -1,4 +1,5 @@
- Currency-exchange-calculator
+ Currency exchange calculator
+ 
 A simple and responsive web app built with HTML, CSS, and JavaScript. It uses the Fetch API to retrieve real-time exchange rates from a currency API and allows users to convert between different currencies instantly.
 
  🚀 Features
@@ -22,7 +23,9 @@ A simple and responsive web app built with HTML, CSS, and JavaScript. It uses th
 2. Navigate to the project folder:
 
 bash
+
 Copy code
+
 cd currency-exchange-calculator
 
 3. Open the index.html file in your browser.
@@ -39,6 +42,7 @@ cd currency-exchange-calculator
 
 🔑 API Used
 ExchangeRate API
+
 https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/{currencyCode}.min.json
 
 📚 What I Learned
